@@ -1,0 +1,49 @@
+[t=0] spawn R1 hero red
+[t=0] spawn R_out outpost red
+[t=0] spawn R_base base red
+[t=0] spawn B1 hero blue
+[t=0] spawn B_out outpost blue
+[t=0] spawn B_base base blue
+Base invalid
+[t=0] R1 -> B_base protected, hp 600
+[t=0] R1 -> B_out 100 damage, hp 200
+[t=10] tick 10
+[t=10] R1 -> B_out 100 damage, hp 100
+[t=10] R1 -> B_out 100 damage, hp 0
+[t=20] tick 10
+Base invalid
+[t=20] R1 -> B_base protected, hp 600
+Base invalid
+[t=20] R1 -> B_base protected, hp 600
+[t=30] tick 10
+Base invalid
+[t=30] R1 -> B_base protected, hp 600
+Base invalid
+[t=30] R1 -> B_base protected, hp 600
+[t=40] tick 10
+Base invalid
+[t=40] R1 -> B_base protected, hp 600
+Base invalid
+[t=40] R1 -> B_base protected, hp 600
+B1 B1 blue hp 300/300 ammo 10 heat 0
+R1 R1 red hp 300/300 ammo 10 heat 100
+B_base base blue hp 600/600
+B_out outpost blue hp 0/0
+R_base base red hp 600/600
+R_out outpost red hp 300/300
+B1 damage 0 kills 0
+R1 damage 300 kills 0
+[t=40] spawn X infantry red
+Base invalid
+[t=40] B1 -> R_base protected, hp 600
+[t=41] tick 1
+B1 B1 blue hp 300/300 ammo 10 heat 80
+R1 R1 red hp 300/300 ammo 10 heat 80
+X X red hp 200/200 ammo 100 heat 0
+B_base base blue hp 600/600
+B_out outpost blue hp 0/0
+R_base base red hp 600/600
+R_out outpost red hp 300/300
+B1 damage 0 kills 0
+R1 damage 300 kills 0
+X damage 0 kills 0

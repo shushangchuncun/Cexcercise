@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsimulator_core.a CMakeFiles/simulator_core.dir/src/building.cpp.o CMakeFiles/simulator_core.dir/src/extras.cpp.o CMakeFiles/simulator_core.dir/src/game.cpp.o CMakeFiles/simulator_core.dir/src/robot.cpp.o
+/usr/bin/ranlib libsimulator_core.a

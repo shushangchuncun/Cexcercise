@@ -1,0 +1,113 @@
+rule respawn 8
+spawn R1 hero red
+spawn R2 infantry red
+spawn R3 infantry red
+spawn R_out outpost red
+spawn R_base base red
+spawn B1 hero blue
+spawn B2 infantry blue
+spawn B3 infantry blue
+spawn B_out outpost blue
+spawn B_base base blue
+mode R1
+mode R1 snipe
+mode R2 burst
+mode R3 cooling
+mode B1 snipe
+mode B2 burst
+mode B3 cooling
+mode R1 snipe
+mode R1
+mode R1 turbo
+mode R_out standard
+shoot GHOST R1
+shoot R_out R1
+shoot R1 B1
+shoot R1 B_out
+shoot B1 R_out
+shoot B1 R_base
+shoot R2 R1
+tick 3
+shoot R1 B_out
+shoot R1 B_base
+shoot B1 R_out
+shoot B1 R_base
+shoot R2 B_out
+shoot B2 R_out
+shoot R3 B_out
+shoot B3 R_out
+shoot R1 B1
+shoot R2 B2
+shoot B1 R2
+shoot B2 R1
+tick 1
+shoot R1 B_out
+shoot R2 B2
+shoot R3 B3
+shoot B1 R_out
+shoot B2 R2
+shoot B3 R3
+tick 8
+shoot R1 B_out
+shoot R1 B_out
+shoot B1 R_out
+shoot B1 R_out
+shoot R2 B2
+shoot R3 B3
+shoot B2 R2
+shoot B3 R3
+tick 8
+shoot R1 B_base
+shoot B1 R_base
+shoot R2 B_base
+shoot B2 R_base
+shoot R3 B_base
+shoot B3 R_base
+shoot R1 B1
+shoot B1 R1
+tick 10
+shoot R1 B1
+shoot B1 R1
+shoot R2 B2
+shoot B2 R2
+shoot R3 B3
+shoot B3 R3
+shoot R1 B_base
+shoot B1 R_base
+tick 10
+shoot R1 B1
+shoot B1 R1
+shoot R2 B2
+shoot B2 R2
+shoot R3 B3
+shoot B3 R3
+tick 5
+shoot R1 B_base
+shoot R2 B2
+shoot B2 R2
+shoot R3 B3
+shoot B3 R3
+shoot R1 B2
+shoot B2 R1
+tick 3
+mode B1
+mode R1
+shoot R1 B_base
+shoot B1 R_base
+shoot R2 B2
+shoot B2 R2
+shoot R3 B3
+shoot B3 R3
+shoot R1 B2
+shoot B2 R1
+tick 10
+shoot R1 B_base
+shoot B1 R_base
+shoot R2 B2
+shoot B2 R2
+shoot R3 B3
+shoot B3 R3
+status
+report
+spawn X hero red
+tick 1

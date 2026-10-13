@@ -1,0 +1,4 @@
+/home/ljq/Project/simulator_student/build/CMakeFiles/simulator_core.dir
+/home/ljq/Project/simulator_student/build/CMakeFiles/simulator.dir
+/home/ljq/Project/simulator_student/build/CMakeFiles/edit_cache.dir
+/home/ljq/Project/simulator_student/build/CMakeFiles/rebuild_cache.dir

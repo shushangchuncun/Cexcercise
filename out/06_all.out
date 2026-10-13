@@ -1,0 +1,82 @@
+[t=0] rule respawn 10
+[t=0] spawn R1 hero red
+[t=0] spawn R2 infantry red
+error: unknown type engineer
+[t=0] spawn R_out outpost red
+[t=0] spawn R_base base red
+[t=0] spawn B1 hero blue
+[t=0] spawn B2 hero blue
+[t=0] spawn B_out outpost blue
+[t=0] spawn B_base base blue
+error: R1 has no modes
+error: R1 has no modes
+error: R1 has no modes
+error: R1 has no modes
+Base invalid
+[t=0] R1 -> B_base protected, hp 600
+error: no such entity GHOST
+error: R_out is not a robot
+error: no such entity E1
+error: no such entity E1
+error: unknown command hello
+[t=3] tick 3
+error: R1 has no modes
+[t=3] R1 cannot shoot: same team
+[t=3] B2 -> R1 100 damage, hp 200
+[t=3] B2 -> R1 100 damage, hp 100
+[t=3] B2 -> R1 100 damage, hp 0
+[t=3] B2 -> R1 100 damage, hp -100
+error: no such entity E1
+error: no such entity E1
+error: no such entity E1
+error: no such entity E1
+[t=8] tick 5
+error: no such entity E1
+[t=8] B1 -> R2 100 damage, hp 100
+[t=8] B1 -> R2 100 damage, hp 0
+[t=8] R2 -> B1 10 damage, hp 290
+error: no such entity E1
+[t=8] B1 -> R2 100 damage, hp -100
+[t=18] tick 10
+B1 B1 blue hp 290/300 ammo 10 heat 0
+B2 B2 blue hp 300/300 ammo 10 heat 0
+R1 R1 red hp -100/300 ammo 10 heat 0
+R2 R2 red hp -100/200 ammo 100 heat 0
+B_base base blue hp 600/600
+B_out outpost blue hp 300/300
+R_base base red hp 600/600
+R_out outpost red hp 300/300
+Base invalid
+[t=18] R1 -> B_base protected, hp 600
+[t=18] R1 -> B_out 100 damage, hp 200
+[t=18] R1 -> B_out 100 damage, hp 100
+[t=26] tick 8
+[t=26] R1 -> B_out 100 damage, hp 0
+[t=34] tick 8
+Base invalid
+[t=34] R1 -> B_base protected, hp 600
+[t=42] tick 8
+Base invalid
+[t=42] R1 -> B_base protected, hp 600
+[t=50] tick 8
+Base invalid
+[t=50] R1 -> B_base protected, hp 600
+[t=58] tick 8
+Base invalid
+[t=58] R1 -> B_base protected, hp 600
+B1 B1 blue hp 290/300 ammo 10 heat 0
+B2 B2 blue hp 300/300 ammo 10 heat 0
+R1 R1 red hp -100/300 ammo 10 heat 100
+R2 R2 red hp -100/200 ammo 100 heat 0
+B_base base blue hp 600/600
+B_out outpost blue hp 0/0
+R_base base red hp 600/600
+R_out outpost red hp 300/300
+B1 damage 300 kills 0
+B2 damage 400 kills 0
+R1 damage 300 kills 0
+R2 damage 10 kills 0
+[t=58] spawn X hero red
+Base invalid
+[t=58] B1 -> R_base protected, hp 600
+[t=59] tick 1

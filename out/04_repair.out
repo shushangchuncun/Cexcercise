@@ -1,0 +1,27 @@
+error: unknown type engineer
+[t=0] spawn R1 hero red
+[t=0] spawn R_out outpost red
+[t=0] spawn B1 hero blue
+[t=0] spawn B_out outpost blue
+error: no such entity E1
+[t=0] B1 -> R1 100 damage, hp 200
+[t=0] B1 -> R_out 100 damage, hp 200
+[t=1] tick 1
+[t=1] B1 -> R1 100 damage, hp 100
+error: no such entity E1
+error: no such entity E1
+[t=5] tick 4
+error: no such entity E1
+[t=6] tick 1
+error: no such entity E1
+error: no such entity E1
+error: no such entity E1
+error: no such entity E1
+error: no such entity E1
+error: no such entity E1
+B1 B1 blue hp 300/300 ammo 10 heat 0
+R1 R1 red hp 100/300 ammo 10 heat 0
+B_out outpost blue hp 300/300
+R_out outpost red hp 200/200
+B1 damage 300 kills 0
+R1 damage 0 kills 0
