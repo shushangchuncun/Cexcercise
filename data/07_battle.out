@@ -54,10 +54,10 @@ error: R_out is not a robot
 [t=4] B2 -> R2 15 damage, hp 185
 [t=4] B3 -> R3 10 damage, hp 190
 [t=12] tick 8
-[t=12] R1 -> B_out 150 damage, hp 0
+[t=12] R1 -> B_out 125 damage, hp 0
 [t=12] B_out destroyed
 [t=12] R1 cannot shoot: target down
-[t=12] B1 -> R_out 150 damage, hp 0
+[t=12] B1 -> R_out 125 damage, hp 0
 [t=12] R_out destroyed
 [t=12] B1 cannot shoot: target down
 [t=12] R2 -> B2 15 damage, hp 155
@@ -129,10 +129,10 @@ B_base base blue hp 0/600
 B_out outpost blue hp 0/300
 R_base base red hp 325/600
 R_out outpost red hp 0/300
-B1 damage 700 kills 1
+B1 damage 675 kills 1
 B2 damage 165 kills 0
 B3 damage 80 kills 0
-R1 damage 1200 kills 3
+R1 damage 1175 kills 3
 R2 damage 135 kills 0
 R3 damage 80 kills 0
 error: game over

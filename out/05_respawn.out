@@ -35,15 +35,17 @@
 [t=20] B1 -> R1 10 damage, hp 20
 [t=20] B1 -> R1 10 damage, hp 10
 [t=20] B1 -> R1 10 damage, hp 0
+[t=20] R1 destroyed
 [t=30] tick 10
 [t=40] tick 10
-B1 B1 blue hp 200/200 ammo 100 heat 0
-R1 R1 red hp 0/300 ammo 10 heat 0
+[t=40] R1 respawned
+B1 infantry blue hp 200/200 ammo 70 heat 0
+R1 hero red hp 300/300 ammo 10 heat 0
 B_out outpost blue hp 300/300
 R_out outpost red hp 300/300
 [t=55] tick 15
-B1 B1 blue hp 200/200 ammo 100 heat 0
-R1 R1 red hp 0/300 ammo 10 heat 0
+B1 infantry blue hp 200/200 ammo 70 heat 0
+R1 hero red hp 300/300 ammo 10 heat 0
 B_out outpost blue hp 300/300
 R_out outpost red hp 300/300
 [t=55] R1 -> B_out 100 damage, hp 200

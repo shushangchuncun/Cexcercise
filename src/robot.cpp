@@ -34,10 +34,11 @@ int Robot::heal(int amount) {
 }
 
 int Robot::takeDamage(int amount){
+    int last_hp_ = hp_;
     hp_ -= amount;
     hp_ = std::max(hp_,0);
     if(hp_ == 0)alive_ = false;
-    return amount;
+    return last_hp_ - hp_;
 }
 
 void Robot::cool(int seconds){

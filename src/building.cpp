@@ -16,10 +16,11 @@ int Building::heal(int amount) {
 }
 
 int Building::takeDamage(int amount){
+    int last_hp_ = hp_;
     hp_ -= amount;
     hp_ = std::max(hp_, 0);
     if(hp_ == 0)alive_ = false;
-    return amount;
+    return last_hp_ - hp_;
 }
 
 Outpost::Outpost(std::string name , Team team)

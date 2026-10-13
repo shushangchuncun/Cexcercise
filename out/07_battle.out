@@ -1,0 +1,139 @@
+[t=0] rule respawn 8
+[t=0] spawn R1 hero red
+[t=0] spawn R2 infantry red
+[t=0] spawn R3 infantry red
+[t=0] spawn R_out outpost red
+[t=0] spawn R_base base red
+[t=0] spawn B1 hero blue
+[t=0] spawn B2 infantry blue
+[t=0] spawn B3 infantry blue
+[t=0] spawn B_out outpost blue
+[t=0] spawn B_base base blue
+R1 mode standard
+[t=0] R1 switching to snipe
+[t=0] R2 switching to burst
+[t=0] R3 switching to cooling
+[t=0] B1 switching to snipe
+[t=0] B2 switching to burst
+[t=0] B3 switching to cooling
+[t=0] R1 cannot switch: switching
+R1 mode switching -> snipe (3 s left)
+error: unknown mode turbo
+error: R_out is not a robot
+error: no such entity GHOST
+error: R_out is not a robot
+[t=0] R1 cannot shoot: switching
+[t=0] R1 cannot shoot: switching
+[t=0] B1 cannot shoot: switching
+[t=0] B1 cannot shoot: switching
+[t=0] R2 cannot shoot: switching
+[t=3] tick 3
+[t=3] B1 mode snipe ready
+[t=3] B2 mode burst ready
+[t=3] B3 mode cooling ready
+[t=3] R1 mode snipe ready
+[t=3] R2 mode burst ready
+[t=3] R3 mode cooling ready
+[t=3] R1 -> B_out 150 damage, hp 150
+[t=3] R1 -> B_base protected, hp 600
+[t=3] B1 -> R_out 150 damage, hp 150
+[t=3] B1 -> R_base protected, hp 600
+[t=3] R2 -> B_out 15 damage, hp 135
+[t=3] B2 -> R_out 15 damage, hp 135
+[t=3] R3 -> B_out 10 damage, hp 125
+[t=3] B3 -> R_out 10 damage, hp 125
+[t=3] R1 cannot shoot: overheat
+[t=3] R2 -> B2 15 damage, hp 185
+[t=3] B1 cannot shoot: overheat
+[t=3] B2 -> R1 15 damage, hp 285
+[t=4] tick 1
+[t=4] R1 cannot shoot: overheat
+[t=4] R2 -> B2 15 damage, hp 170
+[t=4] R3 -> B3 10 damage, hp 190
+[t=4] B1 cannot shoot: overheat
+[t=4] B2 -> R2 15 damage, hp 185
+[t=4] B3 -> R3 10 damage, hp 190
+[t=12] tick 8
+[t=12] R1 -> B_out 125 damage, hp 0
+[t=12] B_out destroyed
+[t=12] R1 cannot shoot: target down
+[t=12] B1 -> R_out 125 damage, hp 0
+[t=12] R_out destroyed
+[t=12] B1 cannot shoot: target down
+[t=12] R2 -> B2 15 damage, hp 155
+[t=12] R3 -> B3 10 damage, hp 180
+[t=12] B2 -> R2 15 damage, hp 170
+[t=12] B3 -> R3 10 damage, hp 180
+[t=20] tick 8
+[t=20] R1 -> B_base 150 damage, hp 450
+[t=20] B1 -> R_base 150 damage, hp 450
+[t=20] R2 -> B_base 15 damage, hp 435
+[t=20] B2 -> R_base 15 damage, hp 435
+[t=20] R3 -> B_base 10 damage, hp 425
+[t=20] B3 -> R_base 10 damage, hp 425
+[t=20] R1 cannot shoot: overheat
+[t=20] B1 cannot shoot: overheat
+[t=30] tick 10
+[t=30] R1 -> B1 150 damage, hp 150
+[t=30] B1 -> R1 150 damage, hp 135
+[t=30] R2 -> B2 15 damage, hp 140
+[t=30] B2 -> R2 15 damage, hp 155
+[t=30] R3 -> B3 10 damage, hp 170
+[t=30] B3 -> R3 10 damage, hp 170
+[t=30] R1 cannot shoot: overheat
+[t=30] B1 cannot shoot: overheat
+[t=40] tick 10
+[t=40] R1 -> B1 150 damage, hp 0
+[t=40] B1 destroyed
+[t=40] B1 cannot shoot: dead
+[t=40] R2 -> B2 15 damage, hp 125
+[t=40] B2 -> R2 15 damage, hp 140
+[t=40] R3 -> B3 10 damage, hp 160
+[t=40] B3 -> R3 10 damage, hp 160
+[t=45] tick 5
+[t=45] R1 -> B_base 150 damage, hp 275
+[t=45] R2 -> B2 15 damage, hp 110
+[t=45] B2 -> R2 15 damage, hp 125
+[t=45] R3 -> B3 10 damage, hp 150
+[t=45] B3 -> R3 10 damage, hp 150
+[t=45] R1 cannot shoot: overheat
+[t=45] B2 -> R1 15 damage, hp 120
+[t=48] tick 3
+[t=48] B1 respawned
+B1 mode standard
+R1 mode snipe
+[t=48] R1 -> B_base 150 damage, hp 125
+[t=48] B1 -> R_base 100 damage, hp 325
+[t=48] R2 -> B2 15 damage, hp 95
+[t=48] B2 -> R2 15 damage, hp 110
+[t=48] R3 -> B3 10 damage, hp 140
+[t=48] B3 -> R3 10 damage, hp 140
+[t=48] R1 cannot shoot: overheat
+[t=48] B2 -> R1 15 damage, hp 105
+[t=58] tick 10
+[t=58] R1 -> B_base 150 damage, hp 0
+[t=58] B_base destroyed
+[t=58] winner: red
+error: game over
+error: game over
+error: game over
+error: game over
+error: game over
+B1 hero blue hp 300/300 ammo 9 heat 0
+B2 infantry blue hp 95/200 ammo 89 heat 0
+B3 infantry blue hp 140/200 ammo 92 heat 0
+R1 hero red hp 105/300 ammo 1 heat 250
+R2 infantry red hp 110/200 ammo 91 heat 0
+R3 infantry red hp 140/200 ammo 92 heat 0
+B_base base blue hp 0/600
+B_out outpost blue hp 0/300
+R_base base red hp 325/600
+R_out outpost red hp 0/300
+B1 damage 675 kills 1
+B2 damage 165 kills 0
+B3 damage 80 kills 0
+R1 damage 1175 kills 3
+R2 damage 135 kills 0
+R3 damage 80 kills 0
+error: game over
+error: game over
