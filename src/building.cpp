@@ -35,6 +35,7 @@ Base::Base(std::string name , Team team,const Outpost*outpost)
           {};
 
 int Base::takeDamage(int amount){
+    int last_hp_ = hp_;
     if(outpost_->alive()&&outpost_!=nullptr){
         //std::cout<<"Base invalid"<<std::endl;
         return 0;
@@ -44,7 +45,7 @@ int Base::takeDamage(int amount){
         hp_ = std::max(hp_, 0);
         if(hp_ == 0)alive_ = false;
     }
-    return amount;
+    return last_hp_ - hp_;
 }
 
 std::string Base::typeName() const{return "base";}

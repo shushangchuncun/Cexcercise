@@ -111,7 +111,7 @@ R1 mode snipe
 [t=48] R1 cannot shoot: overheat
 [t=48] B2 -> R1 15 damage, hp 105
 [t=58] tick 10
-[t=58] R1 -> B_base 150 damage, hp 0
+[t=58] R1 -> B_base 125 damage, hp 0
 [t=58] B_base destroyed
 [t=58] winner: red
 error: game over
@@ -132,7 +132,7 @@ R_out outpost red hp 0/300
 B1 damage 675 kills 1
 B2 damage 165 kills 0
 B3 damage 80 kills 0
-R1 damage 1175 kills 3
+R1 damage 1150 kills 3
 R2 damage 135 kills 0
 R3 damage 80 kills 0
 error: game over
